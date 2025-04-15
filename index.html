@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site menu</title>
+
+
+
+<style>
+    body{
+        font-family: Arial, helvetica, sans-serif;
+    }
+
+.menu{
+    justify-items: center;
+    background-color: #333; /*trocar cor da faixa */
+    color: #fff; 
+}
+.menu-lista{
+    list-style: none; /*tirar os pontinhos"*/
+    display:flex;
+    padding: 0;
+    margin:0;
+}
+.menu-item{
+    margin:0;
+}
+.menu-item a{
+    display:block;
+    padding:15px 20px;
+    text-decoration: none;
+    color: #fff;
+
+}
+.menu-item a:hover{
+    background-color: aqua;
+}
+.conteudo{
+    background-color: white;
+    text-align: center;
+    margin: 20px
+}
+.conteudo p{
+    text-align: justify;
+}
+.conteudo h1{
+    margin:10px 20 px;
+}
+</style>
+</head>
+<body>
+    <nav class="menu">
+        <ul class="menu-lista">
+          <li class="menu-item"><a href="./index.html">ínicio</a></li>
+          <li class="menu-item"><a href="./index.html">sobre</a></li>
+          <li class="menu-item"><a href="./contato.html">contato</a></li>
+    
+    </nav>
+   <div class="conteudo">
+    <h1>Bem vindo ao menu simples</h1>
+    <p>Este é um exemplo de menu simples com uma caixa de conteudo. O menu é responsivo e possui uma transição suave ao passar o mouse sobre os itens. A caixa de conteúdo está centralizada na página e possui um visual suave ao passar o mouse sobre os itens. A caixa de contéudo esta centralizada na página e possui um visual limpo e moderno.</p>
+   </div>
+</body>
+</html>
